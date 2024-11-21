@@ -8,7 +8,10 @@ public class Main {
         cat.makeSound();
         dog.makeSound();
 
-        cat.eat("Mad");
-        dog.eat("Mad");
+        System.out.println(cat.getName() + " spiser fisk: " + cat.eat("fisk"));
+        System.out.println(dog.getName() + " spiser også fisk: " + dog.eat("fisk"));
+
+
+
     }
 }

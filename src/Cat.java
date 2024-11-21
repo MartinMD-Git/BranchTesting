@@ -9,6 +9,17 @@ public class Cat extends Animal{
     }
 
     @Override
+    public void showMood(boolean glad) {
+        if(glad) {
+            System.out.println("Katten spinder");
+        }else{
+            System.out.println("Katten hvæser");
+        }
+    }
+
+
+
+    @Override
     public boolean eat(String foodType) {
         return true;
     }
